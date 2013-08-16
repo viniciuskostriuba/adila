@@ -1,0 +1,668 @@
+body {
+	width: 1425px;
+	margin: 0 auto;
+	height: 3160px;
+
+}
+.top_div {
+	width: 940px;
+	padding: 0px 10px 0px 10px;
+	background-color: #F5F5F5;
+	height: 129px;
+	margin: 0 auto;
+	box-shadow: 30px 0px 40px #888;
+
+}
+
+.logo{
+	float: left;
+	height: 80px;
+	width: 190px;
+	margin: 30px;
+}
+
+.menu {
+	
+	height: 59px;
+	float: right;
+	margin: 32px 13px 36px 38px;
+}
+.menu ul { 
+  background-color: #696969; ;
+  padding: 0px;
+  text-align: right;
+  margin: 0px;
+
+}
+.abstrato h1{ 
+	color: #FF9900; 
+	text-align: center;
+}
+.abstrato h3 {
+	text-align: center;
+	color: #C0C0C0;
+}
+.menu ul li {
+  background-color: #696969  ;
+  list-style-type: none;
+  display: inline-block;
+  margin: 10px;
+  text-align: left;
+}
+
+.menu ul li:hover {
+	background-color: orange ;
+	padding: 5px;
+	margin: 5px;
+}
+.menu ul a {
+	 color:white;
+	 text-decoration: none;
+	 text-indent: 5px;
+}
+.alinhadas {
+	margin: 0 0 0 268px;
+}
+.alinhadas ul li{
+	display: inline-block;
+	list-style-type: none;
+	width: 235px;
+	height: 47px;
+	text-align: center;
+}
+.abstrato {
+	float: center;
+	height: 305px;
+	width: 1425px;;
+	background-image: url("assets/banner-abstract.png");
+    background-repeat: no-repeat; 
+    position: relative;
+}
+
+.caroulsel {
+	position: relative;
+	height: 478px;
+	max-width: 100%;
+	background-image: url("assets/caroulsel_bg.png");
+    background-repeat: no-repeat; 
+    padding-top: 1px;   
+} 
+.caroulsel h2 {
+	text-align: center;
+	background-color: #808080;
+	width: 600px;
+	margin: 10px auto;
+	border-radius: 5px;
+	padding: 10px;
+	color: white;
+}
+.imac {
+	position: absolute;
+	left: 498px;
+	top:87px;
+}
+.ipad {
+	position: absolute;
+	left:327px;
+	top:201px;
+}
+.iphone {
+	position: absolute;
+	left: 465px;
+	top:275px;
+}
+.macbook {
+	position: absolute;
+	left: 796px;
+	top: 248px;
+}
+.planocentral {
+	
+	background-color: #696969 ;
+	height: 137px;
+	width:940px;
+	margin: 200px 0 0 314px;
+	position: relative;
+}
+.frases {
+	padding: 0px 176px 35px 30px;
+	margin: 0px;
+	color: white;
+	float: left;
+}
+.botao {
+	position: absolute;
+	top: 62px;
+	left: 789px;
+	margin: 0px;
+	padding: 0px; 
+	background-color: #FF9900 ;
+	height: 46px;
+	width: 120px;
+	border-radius: 2px;
+}
+.botao a{
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	font-size: 20px;
+	line-height: 46px;
+}
+
+.borda{
+    width: 240px;
+	height: 52px;
+	position: relative;
+	left: 275px;
+	top: 50px;
+}
+.borda li {
+	list-style: none;
+}
+.borda ul li {
+	display: inline;
+	text-decoration: none;
+    border: solid 2px black;
+    border-radius: 30px;
+    padding: 5px;
+    margin: 0 40px 30px 0;
+    color: #333333;
+    padding: 15px;
+    position: relative;
+    bottom: 31px;
+    left: -5px
+}
+
+.traco{
+	border-bottom: solid 1px black;
+	width: 814px;
+	position: absolute;
+	top: 8px;
+	left: 153px;
+}
+.imagem {
+	width: 1123px;
+	position: absolute;
+	top: -7px;
+	left: 920px;
+}
+.fotos {
+	width: 955px;
+	height: 365px;
+	position: relative;
+	margin-left: 300px;
+	margin-top: 80px;
+	
+}
+
+.um {
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	margin-top: -27px;
+	margin-left:-29px;
+}
+.dois {
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	margin-top: -27px;
+	margin-left: 289px;
+}
+.tres {
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	margin-top: -27px;
+	margin-left: 608px;
+}
+.fotos ul li {
+	display: inline-block;
+	list-style-type: none;
+}
+.rodape{
+    width: 181px;
+	height: 52px;
+	position: absolute;
+	top: 288px;
+	left: 11px;
+	margin: 0px;
+	background-color: #696969;
+}
+.fotos a {
+	text-align: center;
+	position: absolute;
+	color: white;
+	margin: 16px;
+}
+.seta {
+	width: 41px;
+	height: 52px;
+	position: absolute;
+	left: 192px;
+	padding: 0px;
+	background-color: #FF9900 ;
+	top: 288px;
+}
+.seta a {
+	color: white;
+	text-align: center;
+	margin: 0 auto;
+	line-height: 52px;
+	position: absolute;
+	left: 16px;
+}
+.rodape2{
+    width: 130px;
+	height: 52px;
+	position: absolute;
+	top: 288px;
+	left: 333px;
+	margin: 0px;
+	background-color: #696969;
+}
+.seta2 {
+	width: 41px;
+	height: 52px;
+	position: absolute;
+	left: 463px;
+	padding: 0px;
+	background-color: #FF9900 ;
+	top: 288px;
+}
+.seta2 a {
+	color: white;
+	text-align: center;
+	margin: 0 auto;
+	line-height: 52px;
+	position: absolute;
+	left: 16px;
+}
+.rodape3{
+    width: 130px;
+	height: 52px;
+	position: absolute;
+	top: 288px;
+	left: 656px;
+	margin: 0px;
+	background-color: #696969;
+}
+.seta3 {
+	width: 41px;
+	height: 52px;
+	position: absolute;
+	left: 786px;
+	padding: 0px;
+	background-color: #FF9900 ;
+	top: 288px;
+}
+.seta3 a {
+	color: white;
+	text-align: center;
+	margin: 0 auto;
+	line-height: 52px;
+	position: absolute;
+	left: 16px;
+}
+.mensagem {
+	background-color: #DCDCDC;
+	height: 153px;
+	width: 955px;
+	margin: 58px 0 0 306px;
+	text-align: center;
+}
+.linha {
+	width: 240px;
+	height: 52px;
+	position: relative;
+	left: 263px;
+	top: 50px;
+}
+.linha li {
+	list-style: none;
+}
+.linha ul li {
+	display: inline;
+	text-decoration: none;
+    border: solid 2px black;
+    border-radius: 30px;
+    margin: 0 40px 30px 0;
+    color: #333333;
+    padding: 16px;
+}
+.traco2 {
+	border-bottom: solid 1px black;
+	width: 523px;
+	position: absolute;
+	top: 8px;
+	left: 140px;
+}
+.icon {
+	display: inline;
+	position: relative;
+}
+.icon {
+	width: 866px;
+}
+
+
+.icon1 {
+	position: absolute;
+	top: 30px;
+	left: 41px;
+	width: 97px;
+}
+.icon2 {
+	position: absolute;
+	top: 30px;
+	left: 145px;
+	width: 74px;
+}
+.icon3 {
+	position: absolute;
+	top: 30px;
+	left: 226px;
+	width: 110px;
+}
+.img1 {
+	position: absolute;
+	top: 58px;
+	left: 39px;
+}
+.img2 {
+	position: absolute;
+	top: 58px;
+	left: 357px;
+}
+.icon3 a {
+	color: #FF9900;
+}
+.rodape4{
+    width: 130px;
+	height: 52px;
+	position: absolute;
+	top: 218px;
+	left: 39px;
+	margin: 0px;
+	background-color: #696969;
+}
+.seta4 {
+	width: 41px;
+	height: 52px;
+	position: absolute;
+	left: 169px;
+	padding: 0px;
+	background-color: #FF9900 ;
+	top: 218px;
+}
+.rodape4 a {
+	color: white;
+	text-align: center;
+	margin: 0 auto;
+	line-height: 52px;
+	position: absolute;
+	left: 16px;
+}
+.seta4 a {
+	color: white;
+	text-align: center;
+	margin: 0 auto;
+	line-height: 52px;
+	position: absolute;
+	left: 16px;
+}
+.rodape5{
+    width: 130px;
+	height: 52px;
+	position: absolute;
+	top: 218px;
+	left: 357px;
+	margin: 0px;
+	background-color: #696969;
+}
+.seta5 {
+	width: 41px;
+	height: 52px;
+	position: absolute;
+	left: 487px;
+	padding: 0px;
+	background-color: #FF9900 ;
+	top: 218px;
+}
+.rodape5 a {
+	color: white;
+	text-align: center;
+	margin: 0 auto;
+	line-height: 52px;
+	position: absolute;
+	left: 16px;
+}
+.seta5 a {
+	color: white;
+	text-align: center;
+	margin: 0 auto;
+	line-height: 52px;
+	position: absolute;
+	left: 16px;
+}
+.icon4  {
+	position: absolute;
+	top: 30px;
+	left: 358px;
+	width: 97px;
+}
+.icon5  {
+	position: absolute;
+	top: 30px;
+	left: 463px;
+	width: 83px;
+}
+.icon6  {
+	position: absolute;
+	top: 30px;
+	left: 545px;
+	width: 114px;
+	color: #FF9900;
+}
+.linha3 {
+	width: 231px;
+	height: 52px;
+	position: relative;
+	left: 914px;
+	top: -19px;
+}
+.linha3 li {
+	list-style: none;
+}
+.linha3 ul li {
+	display: inline;
+	text-decoration: none;
+    border: solid 2px black;
+    border-radius: 30px;
+    margin: 0 40px 30px 0;
+    color: #333333;
+    padding: 16px;
+}
+.traco3 {
+	border-bottom: solid 1px black;
+	width: 164px;
+	position: absolute;
+	top: 9px;
+	left: 185px;
+}
+
+.teste	{
+	position: absolute;
+	left: 1048px;
+	top: 2066px;
+}				
+
+.teste ul{
+	list-style: none;
+}
+
+.teste ul li {
+    border: solid 2px black;
+    border-radius: 30px;
+    margin: 0 40px 15px 0;
+    color: #333333;
+    padding: 8px;
+    width: 276px;
+    background-color: #696969;
+    color: white;
+}
+.linha4 {
+	width: 231px;
+	height: 52px;
+	position: relative;
+	left: 257px;
+	top: 293px;
+}
+.linha4 li {
+	list-style: none;
+}
+.linha4 ul li {
+	display: inline;
+	text-decoration: none;
+    margin: 0 40px 30px 0;
+    color: #333333;
+    padding: 16px;
+    border-radius: 30px;
+    border: solid 2px black;
+}
+.traco4 {
+	border-bottom: solid 1px black;
+	width: 848px;
+	position: absolute;
+	top: 8px;
+	left: 160px;
+}
+.imagem2 {
+	width: 1123px;
+	position: absolute;
+	top: -13px;
+	left: 788px;
+}
+.quadrados {
+	width: 1053px;
+	height: 65px;
+	position: relative;
+	left: 257px;
+	top: 295px;
+
+}
+.quadrados ul li{
+	display: inline-block;
+	background-color: #696969;
+	margin: 0 23px 0 0;
+}
+.linha5 {
+	width: 231px;
+	height: 52px;
+	position: relative;
+	left: 257px;
+	top: 293px;
+}
+.linha5 li {
+	list-style: none;
+}
+.linha5 ul li {
+	display: inline;
+	text-decoration: none;
+    margin: 0 40px 30px 0;
+    color: #333333;
+    padding: 16px;
+}
+.traco5 {
+	border-bottom: solid 1px black;
+	width: 848px;
+	position: absolute;
+	top: 8px;
+	left: 160px;
+}
+.grade {
+	width: 1000px;
+	position: relative;
+	left: 64px;
+	top: 332px;
+	margin: 0 auto;
+}
+.grade ul{
+	display: inline-block;
+
+}
+.grade ul li{
+	display: inline-block;
+	margin-right: 100px;
+}
+
+.grade .reta1 {
+	width: 71px;
+	position: relative;
+	left: 22px;
+	display: inline-block;
+	top:5px;
+
+}
+.grade .reta2 {
+	width: 71px;
+	position: relative;
+	left: -95px;
+	display: inline-block;
+	top: 5px;
+}
+.grade .reta3 {
+	width: 71px;
+	position: relative;
+	left: -299px;
+	display: inline-block;
+	top: 5px;
+}
+.grade .reta4 {
+	width: 71px;
+	position: relative;
+	left: -389px;
+	display: inline-block;
+	top: 6px;
+}
+.grade .reta5 {
+	width: 71px;
+	position: relative;
+	left: 624px;
+	display: inline-block;
+	top: -34px;
+}
+.grade .reta6 {
+	width: 173px;
+	position: relative;
+	left: 745px;
+	display: inline-block;
+	top: -34px;
+}
+.redes {
+	width: 1000px;
+	position: relative;
+	left: 254px;
+	top: 332px;
+}
+.redes ul {
+	list-style: none;
+}
+.redes ul li{
+	display: inline-block;
+	width: 200px;
+} 
+.redes ul li img {
+	float: left;
+}
+.arrumar {
+	position: relative;
+	bottom: 260px;
+	left: 150px;
+}
+.redes ul li p {
+	position: relative;
+	left: 260px;
+	bottom: 70px;
+}
