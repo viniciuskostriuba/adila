@@ -658,11 +658,56 @@ body {
 }
 .arrumar {
 	position: relative;
-	bottom: 260px;
+	bottom: 94px;
 	left: 150px;
 }
 .redes ul li p {
 	position: relative;
 	left: 260px;
-	bottom: 70px;
+	bottom: 40px;
+}
+.comentario {
+	width: 333px;
+	position: relative;
+	bottom: 5px;
+}
+.comentario2 {
+	width: 333px;
+	position: relative;
+	bottom: -20px;
+	right: 1px;
+}
+
+.redes ul li:first-child{
+	position: relative;
+	bottom: 101px;
+}
+.down_div {
+	position: relative;
+	width: 999px;
+	padding: 0px 10px 0px 10px;
+	background-color: #F5F5F5;
+	height: 160px;
+	margin: 0 auto;
+	box-shadow: 30px 0px 40px #888;
+	left: 72px;
+	bottom: -320px;
+}
+.down_div ul li{
+	display: inline-block;
+}
+.png1 {
+	position: relative;
+	left: -17px;
+	bottom: -20px;
+}
+.png2 {
+	position: relative;
+	left: 279px;
+	bottom: -20px;
+}
+.png3 {
+	position: relative;
+	left: 619px;
+	bottom: -20px;
 }
