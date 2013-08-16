@@ -695,19 +695,22 @@ body {
 }
 .down_div ul li{
 	display: inline-block;
+	padding: 16px 62px 0 21px;
 }
-.png1 {
-	position: relative;
-	left: -17px;
-	bottom: -20px;
+#png1 {
+	position: absolute;
+	top: 15px;
+	left: 608px;
 }
-.png2 {
-	position: relative;
-	left: 279px;
-	bottom: -20px;
+.copyright {
+	position:  relative;
+	left: 51px;
+	bottom: -352px;
+	text-align: center;
 }
-.png3 {
-	position: relative;
-	left: 619px;
-	bottom: -20px;
+.copyright a {
+	color: #FF9900;
+}
+.menu2 ul li b {
+	color: #FF9900;
 }
